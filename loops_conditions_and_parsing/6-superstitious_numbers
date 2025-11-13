@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display either good or bad luck
 c=1 
-while [ $c -le 20 ]
+while [ $c -le 20 ];
 do
 echo "$c"
 case $c in 
