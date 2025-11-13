@@ -1,2 +1,2 @@
-VimCrypt~03!x¥²n'™D^£‘v_(‰nIñ¯ßÈíàíQWG©Öß	wûîÿM˜şÃ
-ü
+#!/bin/bash
+printf "%.2\n" $NUM
