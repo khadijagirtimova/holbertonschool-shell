@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 #display either good or bad luck
-x=1
-while [ $x -le 20 ]; do
-
- echo "$x"
-
-  case $x in
-  "4") echo "bad luck from China"
-  ;;
-  "9") echo "bad luck from Japan"
-  ;;
-  "17") echo "bad luck from Italy"
-  ;;
-  esac
-  x=$((x+1))
-  done
+c=1
+while [ $c -le 20 ]
+do
+echo "$c"
+case $c in 
+"4") echo "bad luck from China"
+;;
+"9") echo "bad luck from Japan"
+;;
+"17") echo "bad luck from Italy"
+;;
+esac
+c=$((c+1))
+done
