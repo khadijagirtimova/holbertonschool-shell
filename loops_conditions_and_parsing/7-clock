@@ -7,7 +7,7 @@ echo "hour:$h"
 m=1
 while [ $m -le 59 ]
 do 
-echo "minute: $m"
+echo " $m"
 m=$((m+1))
 done
 h=$((h+1))
