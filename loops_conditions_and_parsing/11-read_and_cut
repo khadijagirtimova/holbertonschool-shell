@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# read /etc/passwd and show username, user id and home directory
+while read -r a
+do 
+echo "$a" | cut -d ":" -f1,3,6
+done < "/etc/passwd"
