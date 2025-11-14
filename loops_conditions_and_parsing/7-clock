@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display the clock
 h=0
-while [ $h -l 12 ]
+while [ $h -le 12 ]
 do
 echo "hour:$h"
 m=1
