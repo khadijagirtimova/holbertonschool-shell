@@ -1,14 +1,15 @@
-#!/usr/bin/env bash
-#display the clock
+#!/usr/bin/env bash 
+#if elif else
 h=0
-while [ $h -le 12 ]
+m=1 
+while [ $h -le 12 ];
 do
-echo "hour:$h"
-m=1
-while [ $m -le 59 ]
+echo "Hour: $h"
+m=1 
+while [ $m -le 59 ];
 do
-echo " $m"
+echo $m
 m=$((m+1))
-done
+done 
 h=$((h+1))
-done | head -n 70
+done
