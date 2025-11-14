@@ -11,4 +11,4 @@ echo " $m"
 m=$((m+1))
 done
 h=$((h+1))
-done
+done | head -n 70
