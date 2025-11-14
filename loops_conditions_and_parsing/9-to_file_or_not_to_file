@@ -9,9 +9,9 @@ then
 echo "school is a regular file"
 if [ -s "$FILE" ]
 then
-echo "school is not empty"
+echo "school file is not empty"
 else
-echo "school is not empty"
+echo "school file is empty"
 fi
 else "school file does not exists"
 fi 
