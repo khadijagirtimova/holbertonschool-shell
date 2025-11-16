@@ -1,0 +1,20 @@
+#!/bin/bash
+cleanup() {
+    rm -f /var/run/myscript.pid
+    exit 0
+}
+sigint_handler() {
+    echo "Y U no love me?!"
+}
+sigterm_handler() {
+    echo "I hate the kill command"
+    cleanup
+}
+echo $$ > /var/run/myscript.pid
+trap sigint_handler SIGINT
+trap sigterm_handler SIGTERM
+trap cleanup SIGQUIT
+while true; do
+    echo "To infinity and beyond"
+    sleep 1
+done
