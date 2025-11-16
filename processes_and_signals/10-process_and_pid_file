@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 cleanup() {
     rm -f /var/run/myscript.pid
     exit 0
